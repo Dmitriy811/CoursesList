@@ -1,0 +1,18 @@
+.wrapper {
+	display: flex;
+	align-items: center;
+	span {
+		padding-left: 5px;
+	}
+	.edit {
+		cursor: pointer;
+	}
+
+	.star {
+		fill: var(--gray-light);
+	}
+
+	.filled {
+		fill: var(--primary);
+	}
+}
